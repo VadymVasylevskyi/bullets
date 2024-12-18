@@ -1,0 +1,15 @@
+.app-container {
+    width: 100%;
+    max-width: 1200px; /* Максимальная ширина для десктопа */
+    margin: 0 auto; /* Центрирование на странице */
+    padding: 0 16px; /* Отступы для мобильных устройств */
+    box-sizing: border-box;
+  }
+  
+  /* Мобильная версия */
+  @media (max-width: 768px) {
+    .app-container {
+      max-width: 100%; /* Убираем ограничения ширины */
+      padding: 0 8px; /* Уменьшенные отступы */
+    }
+  }
